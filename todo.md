@@ -1,5 +1,5 @@
 # This is my Todo list.
-- none right now, but will be in the future!
+- nothing in specific right now!
 
 # Completed
 - center home page
