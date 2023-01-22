@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
     <!--just for centering images-->
     <style>
@@ -9,19 +10,51 @@
      width: 50%;
 }
     </style>
-    <title>Bob's Page!</title>
-    <body>
-        <!-- bob picture -->
-        <img src="bob.png" alt="Bob Animal Crossing" class="center" style="width:127px;height:265;">
-        <h1 style="text-align:center">Hello World!</h1>
-        &nbsp;
-        <a href="https://github.com/minegamer72" target="_blank"><p style="text-align:center">GitHub Profile</p></a>
-        <!-- start github repositories secton here -->
-        <a href="https://minegamer72.github.io/githubrepos" target="_blank"><p style="text-align:center">GitHub Repositories</p></a>
 
-    </body>
+<body>
+
+<div id ="main">
+    <title>Bob's Page!</title>
+
+    <!-- bob picture -->
+    <img src="bob.png" alt="Bob Animal Crossing" class="center" style="width:127px;height:265;">
+    <h1 style="text-align:center">Hello World!</h1>
+    &nbsp;
+    <a href="https://github.com/minegamer72" target="_blank"><p style="text-align:center">GitHub Profile</p></a>
+    <!-- start github repositories secton here -->
+    <a href="https://minegamer72.github.io/githubrepos" target="_blank"><p style="text-align:center">GitHub Repositories</p></a>
+
+    <footer>
+        <!-- stick website source hyperlink to bottom right of page -->
+        <!-- i'm putting the footer twice because i'm too lazy to correct the code ChatGPT gave me. it's only one link though, so it should be fine... right?? -->
+        <a href="https://github.com/minegamer72/minegamer72.github.io" target="_blank"><p style="text-align: right; position: absolute; bottom: 5px;" >Website Source</p></a>
+    </footer>
+
+ </div>
+
+</body>
+
+    <script>
+        /* small easter egg */
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0');
+        var main = document.getElementById("main").innerHTML; 
+
+        today = mm + '/' + dd;
+
+        if(today === "07/15"){
+            document.body.innerHTML = '<html><head><title>HELLO!</title></head><body><hr size=5><font color="red"><p align="center">Welcome to http://www.worm.com !<br><br>Hacked By Chinese!</font></hr></body><br><br><br><br><br><br><br><br><br><button onclick="restore()">Restore</button> </html>';
+
+        function restore(){
+        document.body.innerHTML = main;
+        }
+    }
+        </script>
+
     <footer>
         <!-- stick website source hyperlink to bottom right of page -->
         <a href="https://github.com/minegamer72/minegamer72.github.io" target="_blank"><p style="text-align: right; position: absolute; bottom: 5px;" >Website Source</p></a>
     </footer>
+
 </html>
