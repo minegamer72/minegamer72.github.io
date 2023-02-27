@@ -1,44 +1,83 @@
 <!DOCTYPE html>
 
 <html>
-    <!--just for centering images-->
-    <style>
-    .center {
+
+<script src="src/CR.js"></script>
+
+
+<!--CSS-->
+ <style>
+
+.centerimg {
      display: block;
      margin-left: auto;
      margin-right: auto;
      width: 50%;
 }
-    </style>
 
-<body style="background-color:LightGray;">
+.link-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.link-grid a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.link-grid img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+</style>
 
 <div id ="main">
+    <body style="background-color:#0f0f0f;">
+      
+    <header>    <!-- header, only holds the source code button -->
+        <a href="https://github.com/minegamer72/minegamer72.github.io">
+            <img src="img/githubico.png" alt="Website Source Code">
+        </a>
+    </header>
+  
     <title>Bob's Page!</title>
 
+    <h1 style="text-align:center; color:aliceblue">Hello World!</h1> <!-- about me header -->
+   
     <!-- bob picture -->
-    <img src="bob.png" alt="Bob Animal Crossing" class="center" style="width:127px;height:265;">
-    <h1 style="text-align:center">Hello World!</h1>
+    <img src="img/bob.png" alt="Bob Animal Crossing" class="centerimg" style="width:127px;height:265;">
+    
+    <p style="text-align:center; color:rgb(180, 180, 180)"> <!-- about me text -->
+        This website will host links and stuff. Pretty cool.
+    </p>
+
     &nbsp;
-    <a href="https://github.com/minegamer72" target="_blank"><p style="text-align:center">GitHub Profile</p></a>
-    <!-- start github repositories secton here -->
-    <a href="https://minegamer72.github.io/githubrepos" target="_blank"><p style="text-align:center">GitHub Repositories</p></a>
-    <p style="text-align:center">For the two people using this website: This website is going to have a complete visual overhaul. </p>
-    <footer>
-        <!-- stick website source hyperlink to bottom right of page -->
-        <!-- i'm putting the footer twice because i'm too lazy to correct the code ChatGPT gave me. it's only one link though, so it should be fine... right?? -->
-        <a href="https://github.com/minegamer72/minegamer72.github.io" target="_blank"><p style="text-align: right; position: absolute; bottom: 5px;" >Website Source</p></a>
-    </footer>
+    <h1 style="text-align:center; color:aliceblue">i use arch btw</h1>
 
- </div>
+    &nbsp; <!-- start links -->
+    
+    <h1 style="text-align:center; color:aliceblue">Links</h1>
+    
+    <!-- image links -->
+    <div class="link-grid"> 
+    &nbsp; <!-- just to get this to center for now. will be replaced with two links soon -->
 
+    <a href="https://www.youtube.com/@minecraftgamerr712"> <!-- youtube link -->
+        <img src="img/youtubebutton.png" alt="Youtube">
+    </a>
+    <a href="https://github.com/minegamer72/"> <!-- github link -->
+        <img src="img/githubbuttonw.png" alt="GitHub">
+    </a>
+    </div>
+        <!-- end links -->
 </body>
-
-    <script src="src/CR.js"></script>
-
-    <footer>
-        <!-- stick website source hyperlink to bottom right of page -->
-        <a href="https://github.com/minegamer72/minegamer72.github.io" target="_blank"><p style="text-align: right; position: absolute; bottom: 5px;" >Website Source</p></a>
-    </footer>
-
+</div>
 </html>
