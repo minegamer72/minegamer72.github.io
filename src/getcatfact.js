@@ -39,7 +39,6 @@ function getRandomCatFact(){
     return cat_Facts[randomIndex];
 }
 document.addEventListener('DOMContentLoaded', () => {
-    console.log("hi")
     const catTag = document.querySelector('#cat-fact');
     catTag.textContent = getRandomCatFact();
 });
