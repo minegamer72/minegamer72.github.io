@@ -1,5 +1,5 @@
 //sourced from:
-//https://cvillecatcare.com/veterinary-topics/101-amazing-cat-facts-fun-trivia-about-your-feline-friend/ https://welovecatsandkittens.com/cat-info/cat-facts/  https://www.factretriever.com/cat-facts
+//https://cvillecatcare.com/veterinary-topics/101-amazing-cat-facts-fun-trivia-about-your-feline-friend/ https://welovecatsandkittens.com/cat-info/cat-facts/  https://www.factretriever.com/cat-facts https://youtu.be/lOLv-xhHA_I https://youtu.be/S66SskRz3PM
 
 const cat_Facts = [ // cat facts
     "Unlike dogs, cats cannot taste sweetness due to a mutation in their key taste receptor",
@@ -31,7 +31,16 @@ const cat_Facts = [ // cat facts
     "As of 2017, there are around 88 million pet cats in the United States.",
     "White cats with blue eyes are the most prone to deafness.",
     "Cats spend about 70 percent of the day sleeping and 15 percent of the day grooming.",
-    "Cats have a unique collarbone that allows them to always land on their feet."
+    "Cats have a unique collarbone that allows them to always land on their feet.",
+    "Cats have a heart rate of 120-160 BPM while a human has 60-100.",
+    "Cats and humans are genetically similar.",
+    "Cats sweat through their paws, lips, and their anus.",
+    "Cats can have dominant paws.",
+    "Cats can hear sounds up to 64,000 hz.",
+    "Cats can analyze scents with their mouths, it's called the flehmen response.",
+    "Cats are nearsighted.",
+    "Cats have whiskers on their front legs.",
+    "Abraham Lincoln owned 4 cats."
 ]
 
 function getRandomCatFact(){
