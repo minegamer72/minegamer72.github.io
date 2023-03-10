@@ -40,7 +40,8 @@ const cat_Facts = [ // cat facts
     "Cats can analyze scents with their mouths, it's called the flehmen response.",
     "Cats are nearsighted.",
     "Cats have whiskers on their front legs.",
-    "Abraham Lincoln owned 4 cats."
+    "Abraham Lincoln owned 4 cats.",
+    "THERE IS A HORSE COMING TO YOU"
 ]
 
 function getRandomCatFact(){
