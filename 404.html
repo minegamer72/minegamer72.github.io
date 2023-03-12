@@ -2,14 +2,18 @@
 <html>
 
   <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!--jquery-->
+    <script src="src/getcat.js"></script>
+
     <title>Not Bob's Page!</title>
     <style>
-      .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-      }
+    .cat {
+			max-width: 100%;
+			height: 300px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+		}
     </style>
   </head>
 
@@ -18,7 +22,11 @@
     <a href="https://github.com/minegamer72/minegamer72.github.io">
       <p style="text-align:center">it could if you reaaally wanted it to</p>
     </a>
-    <img src="img/bob404.png" class="center" style="width:445px;height:643">
+		<div id="cat-images"></div>
+
+    <a href="https://thecatapi.com/">
+      <p style="text-align:center; color:rgb(180, 180, 180)">The cat pictures are being pulled from thecatapi.com</p>
+    </a>
     <a href="https://minegamer72.github.io/">
       <p style="text-align:center">Return Home</p>
     </a>
